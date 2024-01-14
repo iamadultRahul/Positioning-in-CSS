@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Position</title>
+    <style>
+        div{
+          background-color: aquamarine; 
+          height: 50px;
+          width: 50px;
+          border: 1px solid lightgreen;
+          text-align: center;
+        }
+        #Box-A{
+            position: relative;
+            top: 200px;
+            left: 200px;
+        }
+
+        #Box-B{
+           position: absolute;
+           left: -30px;
+           bottom: 30px;
+        }
+
+        #Box-C{
+           position:absolute;
+           bottom: 30px;
+           right:-30px;
+
+        }
+
+        #Box-D{
+            position: absolute;
+            bottom: -30px;
+            left: -30px;
+        }
+
+        #Box-E{
+            position: absolute;
+            right: -30px;
+            bottom: -30px;
+        }
+      
+    </style>
+</head>
+<body>
+  
+        
+<div id="Box-A">A
+
+    <div id="Box-B">B</div>
+    <div id="Box-C">C</div>
+    <div id="Box-D">D</div>
+    <div id="Box-E">E</div>
+
+</div>  
+</body>
+</html>
